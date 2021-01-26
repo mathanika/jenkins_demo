@@ -16,7 +16,7 @@ Demonstrates how to use a Shared Library in Jenkins pipelines. This repository d
 2. Then create a Jenkins job with the following pipeline (note that the underscore `_` is not a typo):
 
     ```
-    @Library('pipeline-library-demo')_
+    @Library('jenkins_demo')_
 
     stage('Demo') {
 
