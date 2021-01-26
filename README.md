@@ -20,9 +20,9 @@ Demonstrates how to use a Shared Library in Jenkins pipelines. This repository d
 
     stage('Demo') {
 
-      echo 'Hello World'
+      echo 'Hellooo'
    
-      sayHello 'Dave'
+      sayHello 'Mathanika'
 
     }
     ```
@@ -33,9 +33,9 @@ This will output the following from the build:
 [Pipeline] stage
 [Pipeline] { (Demo)
 [Pipeline] echo
-Hello world
+Hellooo
 [Pipeline] echo
-Hello, Dave.
+Hello, Mathanika.
 [Pipeline] }
 [Pipeline] // stage
 [Pipeline] End of Pipeline
